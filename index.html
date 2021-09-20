@@ -10,13 +10,45 @@
 </head>
 
 <body>
-    <div class="card">
-        <div class="user-like-container m-bottom">
-            <h4>Some User</h4>
-            <p><span id="like">0</span> like(s)</p>
-            <button onclick="increaseLike()" class="btn">like</button>
+    <div class="nav width-margin m-bottom">
+        <h3>Network</h3>
+    </div>
+    <h3 class="text-center m-bottom">Your Feed</h3>
+    <div class="display-flex width-margin">
+        <div class="user-profile border-padding">
+            <img src="./user-circle.png" alt="">
+            <div>
+                <a href="">Add on avatar</a>
+                <p>James Doe</p>
+            </div>
         </div>
-        <p>This is some filler text, it can say anything we like</p>
+        <div class="card-container">
+            <div class="card border-padding m-bottom">
+                <div class="user-like-container display-flex m-bottom">
+                    <h4>Neil M</h4>
+                    <p><span id="like1">0</span> like(s)</p>
+                    <button onclick="increaseLike(like1)" class="btn">like</button>
+                </div>
+                <p>I just set up this new discord bot, let me know what you all think.</p>
+                <a href="#">link</a>
+            </div>
+            <div class="card border-padding m-bottom">
+                <div class="user-like-container display-flex m-bottom">
+                    <h4>Nichole K</h4>
+                    <p><span id="like2">0</span> like(s)</p>
+                    <button onclick="increaseLike(like2)" class="btn">like</button>
+                </div>
+                <p>Just finished my <span><a href="#">next comic</a></span>, check it out</p>
+            </div>
+            <div class="card border-padding">
+                <div class="user-like-container display-flex m-bottom">
+                    <h4>Jim R</h4>
+                    <p><span id="like3">0</span> like(s)</p>
+                    <button onclick="increaseLike(like3)" class="btn">like</button>
+                </div>
+                <p>I can't stop listening to the ,<span><a href="#">new album</a></span>. Who else is liking it?</p>
+            </div>
+        </div>
     </div>
     <script src="./script.js"></script>
 </body>
