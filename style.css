@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+}
+.card {
+  min-height: 150px;
+  width: 40%;
+  border: solid 2px black;
+  padding: 2rem;
+  margin: 2rem auto;
+}
+
+.user-like-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  border: solid 2px black;
+  padding: 0.5em 1em;
+  background-color: rgb(246, 209, 65);
+  box-shadow: 3px 3px 0px black;
+}
+.m-bottom {
+  margin-bottom: 1rem;
+}
